@@ -11,6 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
+  line-height: 1.5;
   color: #222;
 }
 
@@ -20,10 +21,14 @@ html {
 
 article {
   max-width: 43em;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 article h1 {
   font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 1.5;
 }
 
 article header {
@@ -32,9 +37,17 @@ article header {
 
 article header p {
   font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1.5;
+
+}
+
+article ol {
+  padding-left: 1rem;
 }
 
 article > p:last-child {
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid #999;
 }
 
@@ -42,6 +55,7 @@ blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 0;
 }
 
 .quote {
